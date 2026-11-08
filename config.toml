@@ -1,0 +1,5 @@
+project_id = "YOUR_PROJECT_REF"
+[functions.bootstrap-admin]
+verify_jwt = false
+[functions.verify-admin-pin]
+verify_jwt = true
