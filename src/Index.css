@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #08070b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 7%;
+  background: #111;
+}
+
+button {
+  background: #b51f35;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero {
+  min-height: 65vh;
+  padding: 100px 8%;
+  background: linear-gradient(90deg, #08070b, #32101b);
+}
+
+.tag {
+  color: #ff536d;
+  letter-spacing: 4px;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 8vw, 80px);
+  margin: 20px 0;
+}
+
+.hero p {
+  line-height: 1.8;
+}
+
+.watch {
+  margin-top: 25px;
+}
+
+.content {
+  padding: 50px 8%;
+}
